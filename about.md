@@ -4,14 +4,40 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+## About the ZEL Energy Blog
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+The **ZEL Energy Blog** is a publication by **ZEL Energy**, created to share insights, research, and perspectives across energy, infrastructure, sustainability, and natural resources.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Our goal is to contribute thoughtful, practical commentary on the systems that power economies — from traditional energy markets to emerging technologies and sustainable solutions.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+---
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+## About ZEL Energy
+
+**ZEL Energy** operates across renewable energy, oil & gas, and natural resources, supporting projects, partnerships, and advisory work in diverse markets.
+
+This blog complements our core work by providing:
+- Industry analysis and commentary  
+- Research highlights and explainers  
+- Company updates and thought leadership  
+- Perspectives on energy transition and infrastructure development  
+
+For more information about our work, visit:  
+👉 https://zelenergy.co
+
+---
+
+## Editorial Disclaimer
+
+Content published on this blog is for **informational purposes only** and does not constitute investment, legal, or financial advice.
+
+Opinions expressed are those of the authors and do not necessarily reflect the views of partners, affiliates, or third parties.
+
+---
+
+## Contact
+
+For questions, collaborations, or media inquiries:
+
+📧 business@zelenergy.co  
+🌐 https://zelenergy.co
