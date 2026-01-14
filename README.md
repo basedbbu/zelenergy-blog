@@ -1,78 +1,59 @@
-mediator
-========
+# ZEL Energy Blog
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](http://blog.base68.com).
+The **ZEL Energy Blog** is a Jekyll-powered publication sharing insights, updates, and perspectives on energy, infrastructure, sustainability, and natural resources from **ZEL Energy**.
 
-Screenshots
---------
-![screenshot](/assets/images/screenshot1.jpg)
-![screenshot](/assets/images/screenshot2.jpg)
-![screenshot](/assets/images/screenshot3.jpg)
+This site is built on a customized fork of the **Mediator** Jekyll theme, originally created by Dirk Fabisch and released under the MIT License.
 
-Features
--------
-* Fully Responsive layout
-* Use header images in articles, if you want to (add tag "image" and url to the image in the front matter section of a post)
-* Minimal design
-* Featured article support
-* FontAwesome implemented for easy use of icons fonts
-* Free & Open Source Font usage
-
-Getting Started
 ---
-- [Fork this repository](https://github.com/dirkfabisch/mediator)
-- Clone it: `git clone https://github.com/YOUR-USER/mediator`
-- Install the requried gems ([GitHub Pages](https://github.com/github/pages-gem), [Bourbon](https://github.com/thoughtbot/bourbon) and [Jekyll](https://github.com/jekyll/jekyll), [Jemoji](https://github.com/jekyll/jemoji)): `bundle install`
-- Run the jekyll server: `bundle exec jekyll serve`
 
-You should have a server up and running locally at <http://localhost:4000>.
+## About ZEL Energy
 
-Configuration
------
+ZEL Energy is an energy-focused company operating across renewable energy, oil & gas, and natural resources.  
+This blog serves as a platform for thought leadership, research highlights, and company updates.
 
-The main settings happen in side of the _config.yml file:
+🌐 Main site: https://zelenergy.co  
+📰 Blog: https://blog.zelenergy.co (custom domain via GitHub Pages)
 
-### Site
+---
 
-Main settings for the site
+## Theme Credits
 
-* **title**: name of your site
-* **description**: description of your site
-* **logo**: small logo for the site (300x * 300x)
-* **cover**: large background image on the index page
+This blog is based on the **Mediator** Jekyll theme:
 
-* **name**: name site owner
-* **email**: mail address of the site owner
-* **author**: author name
-* **author_image**: small image of author (300x * 300px)
-* **disqus**: add a disqus forum for your post
+- Original theme: https://github.com/dirkfabisch/mediator  
+- Inspiration: Readium (Ghost theme)
 
-### Social
+The theme has been **significantly customized** for branding, layout, metadata, accessibility, and deployment on GitHub Pages.
 
-The template allows to add all major social platforms to your site.
-Fill the the form for each platform. If you leave the share_* entries empty, the sharing buttons below a post are not shown.  If you leave the **url** and **desc** empty the icons are not shown on the index page, but the share icons on the article pages remains untouched (Thanks to [Phil](https://github.com/philsturgeon))
+---
 
-* **icon**:	name of social platform (must match a name of [font-awsome](http://fortawesome.github.io/Font-Awesome/) icon set )
-* **url**:	url of your account
-* **desc**: slogan of the platform
-* **share_url**: share url
-* **share_title**: first part of url for the title
-* **share_link**: second part of the share url for the link to the post
+## Features
 
-The Liquid template engine will magical combine the different parts to a share url.
+- Fully responsive layout
+- Clean, editorial-style design
+- Hero images for posts
+- Featured articles
+- SEO-friendly meta tags (Open Graph + Twitter/X)
+- RSS feed support
+- GitHub Pages–compatible (no custom build required)
+- Free SSL + custom domain support
 
-```
-http://twitter.com/share?text=post_title&amp;url=post_url
-````
+---
 
-See [_config.yml](https://github.com/dirkfabisch/mediator/blob/master/_config.yml) for more examples.
+## Tech Stack
 
-Licensing
----------
+- **Jekyll**
+- **GitHub Pages**
+- **Liquid templates**
+- **Font Awesome**
+- **jQuery (theme-dependent)**
 
-[MIT](https://github.com/dirkfabisch/mediator/blob/master/LICENCE) with no added caveats, so feel free to use this on your site without linking back to me or using a disclaimer or anything silly like that.
+---
 
-Contact
--------
-I'd love to hear from you at [@dirkfabisch](https://twitter.com/dirkfabisch). Feel free to open issues if you run into trouble or have suggestions. Pull Requests always welcome.
+## Local Development (optional)
+
+If you want to run the blog locally:
+
+```bash
+bundle install
+bundle exec jekyll serve
