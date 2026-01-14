@@ -1,20 +1,20 @@
 # Build settings
-gems:
+plugins:
   - jemoji
   - jekyll-paginate
 
 # Site settings
 title: "ZEL Energy Blog"
-description: > # this means to ignore newlines until "email:"
+description: >
   Updates, insights, and stories from ZEL Energy.
 
 email: hello@zelenergy.co
 
-# blog logo
-logo: "/assets/images/df_logo.jpg"
-float_logo: true # true, false (default)
+# blog logo (file is literally: assets/images/1.png)
+logo: "/assets/images/1.png"
+float_logo: true
 
-# blog cover
+# blog cover image
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
 name: "ZEL Energy"
@@ -23,30 +23,16 @@ author_image: "/assets/images/author.jpg"
 
 paginate: 5
 
-# IMPORTANT: Project site on GitHub Pages
+# GitHub Pages – project site
 url: "https://baseddbu.github.io"
 baseurl: "/zelenergy-blog"
 
-# used to display twitter cards
-twitter_handle: "@zelenergy"
-
-# fill in disqus shortname to use disqus
-# disqus: disqus-shortname
-
-# google_analytics: UA-XXXXX-X
-
-# social icons and sharing options
+# social icons (Font Awesome 4.2 compatible)
 social:
-  - icon: twitter
-    url: https://twitter.com/zelenergy
-    desc: Follow us on X
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+  - icon: linkedin
+    url: https://www.linkedin.com/company/zel-energy/
+    desc: Follow us on LinkedIn
 
-  - icon: github
-    url: https://github.com/baseddbu/zelenergy-blog
-    desc: Fork this blog on GitHub
-    share_url:
-    share_title:
-    share_link:
+  - icon: globe
+    url: https://zelenergy.co
+    desc: Visit zelenergy.co
